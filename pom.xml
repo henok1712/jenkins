@@ -16,9 +16,7 @@
 		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
 		<mule.tools.version>1.7</mule.tools.version>
 	</properties>
-<profiles>
-<profile>
-	<id>dev</id>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -41,7 +39,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-
+				
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.2.2</muleVersion>
@@ -70,9 +68,7 @@
 				</executions>
 			</plugin>
 		</plugins>
-		</build>
-		</profile>	
-     </profiles>
+	</build>
 
 	<dependencies>
 		<dependency>

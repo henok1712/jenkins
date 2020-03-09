@@ -14,9 +14,9 @@ stages {
         }
     }
     stage('Deploy Application'){
-        steps{
+        steps {
     
-                   bat 'mvn clean package deploy -DmuleDeploy'
+                   bat 'mvn clean package install deploy'
            
             }
         }

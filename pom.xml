@@ -23,8 +23,8 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
-				<configuration>				
-  				<cloudHubDeployment>
+				<configuration>
+					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.2.2</muleVersion>
 						<username>solution</username>
@@ -38,9 +38,19 @@
 							<http.port>8081</http.port>
 						</properties>
 
-				</cloudHubDeployment>
+					</cloudHubDeployment>
 				</configuration>
-		</plugin>
+				<executions>
+					<execution>
+						<id>default-deploy</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 

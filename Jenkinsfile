@@ -16,7 +16,7 @@ stages {
     stage('Deploy Application'){
         steps {
     
-                   bat 'mvn clean package install deploy'
+                   bat 'mvn deploy'
            
             }
         }

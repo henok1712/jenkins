@@ -50,6 +50,7 @@
 						<workerType>Micro</workerType>
 						<workers>1</workers>
 						<objectStoreV2>true</objectStoreV2>
+						<region>us-east-1</region>
 						<properties>
 							<http.port>8081</http.port>
 						</properties>

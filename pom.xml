@@ -43,8 +43,8 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.2.2</muleVersion>
-						<username>solution</username>
-						<password>Robert123</password>
+						<username>Hen Giz</username>
+						<password>Nordic123</password>
 						<applicationName>jenkinscicd_test</applicationName>
 						<environment>Sandbox</environment>
 						<workerType>Micro</workerType>
